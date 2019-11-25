@@ -1,0 +1,68 @@
+@import "style.css";
+.gender input[type=radio]{
+    padding: 1em;
+    
+    
+}
+.gender{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+.visinaTezina>form {
+    display: grid;
+    
+    
+    grid-template-columns:40%;
+    align-self: center;
+    justify-content: center;
+    grid-gap:1em;
+    
+    
+}
+.unos{
+    height:2em;
+    border-radius: 5px;
+    
+}
+.dugme{
+    width:fit-content;
+    padding:1em;
+    background-color:rgb(178, 245, 102);
+    justify-self: center;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.visinaTezina ::placeholder{
+    color:red;
+    opacity: 0,1;
+
+    
+}
+.omotacRez2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60%;
+    background-color: rgb(178, 245, 102);
+    padding: 1em;
+
+}
+.text{
+    padding:4em;
+}
+.sokovi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    padding: 4em;
+    padding-top: 0;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,46 @@
+.cont{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.kontaktP{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2em;
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.kontaktPodaci{
+    height:2em;
+    border-radius: 5px;
+}
+.komentar{
+    margin-top: 1em;
+    height: 3em;
+    border-radius: 5px;
+}
+.Posalji{
+    height: 3em;
+    padding: 1em;
+    justify-content: center;
+    background-color: rgb(178, 245, 102);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#formaDugme{
+    justify-self: center;
+}
+#mapaText p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1em;
+
+}
+.col-3{
+   
+    opacity: 0.8;
+}
+footer{
+    position: absolute;
+    border: 0;
+}

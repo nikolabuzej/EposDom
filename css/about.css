@@ -1,0 +1,21 @@
+.about{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.slikaAbout{
+    justify-self: center;
+}
+.about p{
+    font-size: large;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.radnoVreme{
+    justify-self: center;
+    border-radius: 10px;
+    background-color: beige;
+    padding-top: 2em;
+    opacity: 0.6;
+
+}
